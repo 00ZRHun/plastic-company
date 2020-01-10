@@ -1,0 +1,77 @@
+
+* {
+	box-sizing: border-box;
+	line-height: 1.3em;
+
+}
+
+
+
+.searchBox {
+	width: 100%;
+	border:1px solid  #666;
+	margin-bottom: 1%;
+	padding: 10px 10px  10px 10px;
+	border-radius: 5px;
+	margin-left: 10px;
+
+}
+.searchTitle {
+	color: #666666;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+input[type=submit] {
+	display: block;
+	width: 50%;
+}
+input[type=text] {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+/*--------------------------------------  Left Side Information Box --------------------------------------*/
+
+.informationTitle {
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #666666;
+
+}
+.leftSideInformation {
+	width: 100%;
+	margin-left: 10px;
+}
+.leftSideInformation address {
+	color: #666666;
+	font-size: 18px;
+	width: 100%;
+}
+.iconBG {
+		color: #666666;
+		font-size: 20px;
+	}
+.whatsappBG {
+	color: #3ab009;
+	font-size: 30px;
+}
+
+.leftSideInformation a {
+	text-decoration: none;
+	color: #666666;
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+
+ }
+ .leftSideInformation a:hover {
+ 	text-decoration: underline;
+ }
+ .telNum {
+	color: #666666;
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	font-size: 15px;
+}
+.left-email a{
+	font-size: 14px;
+}

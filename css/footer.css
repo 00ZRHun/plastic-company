@@ -1,0 +1,147 @@
+
+
+/*-------------------------------- First Footer CSS -------------------------------------*/
+.footer-main-section {
+	/* margin-top: 50px; */
+	background: #f1f1f1;
+	display: flex;
+	flex-wrap: wrap;	
+	/* margin-bottom: 20px; */
+}
+
+.footer-main-section .container
+{	
+	justify-content: center;
+}
+
+/* .QuickLinks {
+width: 33.3333%;
+}
+.Recent {
+
+width: 31.3333%;
+padding-left: 1%;
+
+}
+.Contact {
+	width: 33.3333%;
+	margin-left: 1%;
+} */
+
+.QuickLinks,.Recent,.Contact
+{
+	padding: 1em;
+}
+
+.footer-main-section h2 {
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	color: #666666;
+	font-weight: bold;
+	font-size: 21px;
+	margin-bottom: 20px;
+}
+
+.Contact p span
+{
+	font-size:.7rem;
+}
+
+.QuickLinks li {
+	margin-bottom: 5px;
+}
+.QuickLinks a {
+	text-decoration: none;
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	color: #666666;
+	font-size: .7rem;
+
+}
+.QuickLinks a:hover {
+	text-decoration: underline;
+}
+
+.small {
+	font-size: .7rem;
+
+}
+.border {
+	/* border-left: 1px solid #cccccc;
+	border-right:1px solid #cccccc; */
+}
+.Contact {
+	
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	color: #666666;
+
+}
+.Contact p {
+	margin-bottom: 15px;
+	font-size: .7rem;
+}
+.Contact a {
+	text-decoration: none;
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	color: #666666;
+	font-size: .7rem;
+}
+.Contact a:hover {
+	text-decoration: underline;
+}
+
+
+/*----------------------------------- Footer Css -------------------------------------------*/
+footer {
+	width: 100%;
+	background: #fff;
+	height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 12px;	
+}
+.footer-center {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;	
+}
+.inner-left {
+	width:73%; 
+}
+.inner-right p {
+	font-size: .7rem;
+	
+}
+.inner-right a {
+	text-decoration: none;
+	color: #999;
+
+}
+.inner-right a:hover {
+	text-decoration: underline;
+}
+
+footer p {
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	color: #999;
+	font-size: .7rem;
+
+}
+footer span {
+	font-weight: bold;	
+	font-size: .7rem;
+}
+.space {
+	margin-left: 5%;
+}
+
+
+@media screen and ( max-width: 728px )
+{
+	.border
+	{
+		/* border:none;
+		border-top:1px solid #cccccc;
+		border-bottom:1px solid #cccccc; */
+	}
+}

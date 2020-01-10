@@ -1,0 +1,264 @@
+img {
+	width: 100%;
+	height: auto;
+}
+/*--------------------------- end default Css ---------------------------------------------*/
+body {
+	/* background: #f1f1f1; */
+	position: relative;
+}
+.wrap {
+	max-width: 960px;
+	margin:0 auto;
+	
+}
+
+/*-----------------------------  Box shadow ----------------------------------------*/
+.center {
+	box-shadow: 0 0 8px rgba(0,0,0,.3);
+	background: #fff;
+}	
+
+
+
+/*-------------------------------  Header -----------------------------------------------------------*/
+ header {
+ 	width: 100%;
+ 	/*background: #007A75;*/
+	
+ }
+ header .top {
+
+ 	height: auto;
+ 	width: 100%;
+ }
+ header .topnav {
+ 	margin-top: -3.5px;
+ 	width: 100%;
+ 	
+ 
+ 	background: #007A75;
+ 	
+
+ }
+ header .topnav ul {
+ 	display: flex;
+ 	width: 60%;
+ 	flex-wrap: wrap;
+ }
+ header .topnav ul li {
+
+ 	padding-left:10px;
+ 	padding-right: 10px;
+ 	padding-top: 17px;
+ 	padding-bottom: 17px;
+
+ }
+ header .topnav ul li a {
+   text-decoration: none;
+   color: white;
+	font-weight: 540;
+   font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+
+ }
+
+ header .topnav ul li:hover {
+ 	background: #000;
+ }
+ /*---------------------------- when scoll down ------------------------------------------*/
+ .fixnav {
+ position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+ 	
+ }
+ header .fixnav ul {
+ 	margin-left:15%;
+ }
+ header .fixnav ul li {
+ 	padding-top: 12px;
+ 	padding-bottom: 12px;
+ 	font-size: 14px;
+ 	padding-left:10px ;
+ 	padding-right: 0px;
+ 	
+ }
+ header .fixnav ul li a {
+ 	border-right:1px solid white;
+ 	padding-right: 10px;
+
+
+ }
+  header .fixnav ul .no-border a
+ {
+	border-right:1px solid #007A75  !important;
+ }
+ header .fixnav ul li:hover {
+ 	background: #007A75;
+ }
+
+ /*-----------------------------------  Main --------------------------------------------------*/
+ main {
+ 	width: 100%;
+
+ 	margin-top: 20px;
+	padding: 20px 2em;
+	
+
+ }
+ .clearFix:after {
+ 	content: "";
+ 	display: block;
+ 	clear: both;
+ 	height: 0;
+ 	width: 0;
+ 	visibility: hidden;
+
+ }
+
+
+/*--------------------------------  Aside ------------------------------------------------*/
+aside {
+	/* width: 200px;
+	
+	float: left; */
+	
+}
+
+/*------------------------------------ Right  ---------------------------------------------------*/
+
+.right-section {
+	
+	/* margin-left: 240px; */
+	
+}
+
+
+/*------------------------------------ form ---------------------------------------------------------------*/
+.form {
+	max-width: 730px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.form h2 {
+	font-weight: bold;
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	color: #666666;
+	font-size: 20px;
+	margin-bottom: 15px;
+
+}
+.form .form-content {
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	color: #666666;
+	font-size: 14px;
+	margin-bottom: 14px;
+
+}
+.form span {
+	color: red;
+}
+.form form input[type=text],
+.form form input[type=email],
+.form form input[type=tel] {
+	width: 60%;
+	height: 30px;
+	border:1px solid #ccc;
+	margin-bottom: 5px;
+
+}
+.form form textarea {
+	width: 100%;
+	resize: none;
+}
+.form form input[type=file] {
+	margin-bottom: 5px;
+}
+.form form .formLabel {
+	display: block;
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	color: #666666;
+	font-size: 14px;
+	padding-bottom: 10px;
+
+
+}
+.form form input[type=submit] {
+	margin-top: 5px;
+	width: 10%;
+
+}
+/*---------------------- information box ---------------------------------*/
+.information {
+	width: 100%;
+}
+.information h2 {
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: #666666;
+}
+
+.information address {
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	font-size: 14px;
+	color: #666666;
+}
+.information a {
+	text-decoration: none;
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	color: #666666;
+	font-size: 14px;
+}
+.information a:hover {
+	text-decoration: underline;
+}
+.information span {
+	
+	color: #666666;
+	font-size: 14px;
+}
+.iconBG {
+		color: #666666;
+		font-size: 20px;
+	}
+.whatsappBG {
+	color: #3ab009;
+	font-size: 30px;
+}
+.clockBG {
+	font-weight: bold;
+	color: #666666;
+	font-size: 14px;	
+}
+.bussinessHours strong {
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	color: #666666;
+	font-size: 14px;
+	font-weight: bold;
+}
+.bussinessHours {
+	color: #666666;
+	font-size: 14px;
+	font-family: roboto,microsoft yahei,microsoft jhenghei,sans-serif;
+	color: #666666;
+}
+
+
+
+
+/*--------------------------- media query ----------------------------------*/\
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
+
